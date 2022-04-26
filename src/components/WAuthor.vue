@@ -1,7 +1,7 @@
 <template>
   <div class="w-author">
     <router-link to="/profile" target="_blank">
-      <img :src="avatar" alt="" class="w-author__avatar" />
+      <img :src="avatar" :alt="name" class="w-author__avatar" />
     </router-link>
     <div class="w-author__wrapper">
       <h2 class="w-author__name">{{ name }}</h2>
